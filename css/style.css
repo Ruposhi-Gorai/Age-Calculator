@@ -1,0 +1,47 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            width: 400px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .input-data-box,
+        .data {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 30px 20px;
+        }
+
+        .input-data-box input,
+        button {
+            padding: 10px 10px;
+            font-size: 18px;
+            border-radius: 4px;
+            border: none;
+            /* background-color: rgb(231, 245, 244); */
+            box-shadow: 0px 1px 4px 0px grey;
+        }
+
+        .data input,
+        label {
+            text-align: center;
+        }
+
+        .data input {
+            padding: 10px 10px;
+            font-size: 18px;
+            border: none;
+            box-shadow: 0px 1px 4px 0px grey;
+            border-radius: 4px;
+        }
+
+        .input-data-box button {
+            background-color: rgb(4, 134, 255);
+            color: #fff;
+        }
